@@ -1,0 +1,19 @@
+package com.company;
+
+public class Main {
+
+
+
+
+    public static void main(String[] args) {
+        Book proverka= new Book("V.D. Dragunov","Vesennie Polya",1947);
+        Book derejabl = new Book ("C.K. Gavrilov", "Seju glyaju", 1999);
+
+
+
+        System.out.println(proverka.getAvtor());
+        System.out.println(proverka.getName());
+        System.out.println(proverka.getYear());
+    }
+
+}
